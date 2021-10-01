@@ -1,0 +1,15 @@
+.messagesWrapper {
+  padding: 0 4px;
+  border-bottom: 1px solid #f1f1f1;
+  height: 90vh;
+}
+
+.chatAvatar {
+  display: flex;
+}
+
+.chatAvatar span {
+  padding-top: 10px;
+  padding-left: 10px;
+  font-weight: bold;
+}

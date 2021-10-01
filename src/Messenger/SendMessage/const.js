@@ -1,0 +1,1 @@
+export const PLACEHOLDER = 'Write a message...';

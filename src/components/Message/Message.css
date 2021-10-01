@@ -1,0 +1,29 @@
+.messageWrapper {
+  display: flex;
+}
+
+.messageWrapper.right {
+  justify-content: flex-end;
+}
+
+.messageWrapper.left {
+  justify-content: flex-start;
+}
+
+.message {
+  margin-top: 4px;
+  padding: 16px;
+  border-radius: 20px;
+  background: #ccc;
+}
+
+.left .message {
+  border-top-left-radius: 0;
+  margin-right: 25px;
+  margin-left: 50px;
+}
+
+.right .message {
+  border-top-right-radius: 0;
+  margin-left: 25px;
+}
